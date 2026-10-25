@@ -1,0 +1,8 @@
+{
+  "name": "GeoDecoder Digital",
+  "version": "2.1.0",
+  "source_repository": "unDead41/geodecoder",
+  "source_branch": "digitalize",
+  "source_commit": "5e2474ad164555e491fd6640b2506fd71db1f8da",
+  "artifact_sha256": "5222e2b1902ea612f0bc31d34ccef3c8bb9bf68b59629428000fd4d9be37755e"
+}
