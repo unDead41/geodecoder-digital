@@ -1,8 +1,35 @@
 {
-  "name": "GeoDecoder Digital",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "source_repository": "unDead41/geodecoder",
   "source_branch": "digitalize",
-  "source_commit": "5e2474ad164555e491fd6640b2506fd71db1f8da",
-  "artifact_sha256": "5222e2b1902ea612f0bc31d34ccef3c8bb9bf68b59629428000fd4d9be37755e"
+  "source_commit": "a692a2d2be8002f4c9bf7a9b8a504185c00265ba",
+  "site_html_sha256": "061c0415816c96ff594c9b1bda7b633a8ecd5030e03d02de733deee12b898895",
+  "offline_html_sha256": "e09140e1dc55e50676f004e523a003275395323698ca57ae674dba979731f502",
+  "module": {
+    "version": "1.1.0",
+    "source_commit": "92c12c3a07ec250c03a73decaf52a654fc26d502",
+    "blob": "2ad2f482dd6b356cd4842b7f4fab911b11b59521"
+  },
+  "audio": [
+    {
+      "path": "assets/audio/menu.mp3",
+      "bytes": 2161058,
+      "sha256": "9843f7da5eb33dcde18e83401debf2d82e1355a07cea0df5e4a696b1e123b0b4"
+    },
+    {
+      "path": "assets/audio/map.mp3",
+      "bytes": 2006517,
+      "sha256": "a86d0abe511f1ef5291c95b27b8aee42338d9dc5970af03d79fdef8e157aacb4"
+    }
+  ],
+  "backend": {
+    "edge_function": "geodecoder-auth",
+    "version": 3,
+    "email_delivery": "pending owner SMTP and redirect configuration; inbox delivery not verified"
+  },
+  "validation": {
+    "unit_tests": 79,
+    "static_checks": "passed",
+    "database_checks": "passed; fixtures rolled back"
+  }
 }
