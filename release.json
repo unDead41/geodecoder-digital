@@ -2,9 +2,9 @@
   "version": "2.2.0",
   "source_repository": "unDead41/geodecoder",
   "source_branch": "digitalize",
-  "source_commit": "a692a2d2be8002f4c9bf7a9b8a504185c00265ba",
-  "site_html_sha256": "061c0415816c96ff594c9b1bda7b633a8ecd5030e03d02de733deee12b898895",
-  "offline_html_sha256": "e09140e1dc55e50676f004e523a003275395323698ca57ae674dba979731f502",
+  "source_commit": "390ab00fec1997efe2ad15188f2148ecd5f1b630",
+  "site_html_sha256": "442ab480d7881f2f340a4557913f6805509eb6ff2427daeb5efc50d7b0f3881c",
+  "offline_html_sha256": "352818e9d3a2be1eca0ead85e1abd7ee150802822c3259ffdc98b8f19a19b70e",
   "module": {
     "version": "1.1.0",
     "source_commit": "92c12c3a07ec250c03a73decaf52a654fc26d502",
@@ -28,8 +28,9 @@
     "email_delivery": "pending owner SMTP and redirect configuration; inbox delivery not verified"
   },
   "validation": {
-    "unit_tests": 79,
+    "unit_tests": 81,
     "static_checks": "passed",
     "database_checks": "passed; fixtures rolled back"
-  }
+  },
+  "fix": "Dedicated music button preserves the first mute click."
 }
