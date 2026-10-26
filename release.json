@@ -1,9 +1,11 @@
 {
-  "version": "2.7.0",
+  "version": "2.8.0",
   "sourceRepository": "unDead41/geodecoder",
   "sourceBranch": "main-digitalized",
-  "sourceCommit": "123704bd1265df05854be0f7905fb710fc04533b",
-  "moduleVersion": "1.5.0",
+  "sourceCommit": "9288d422bc34212fe5b7d6c0a2c6edb129bbd295",
+  "integrationCommit": "f740aded776f2af8930dbcc63c98451ef20a4178",
+  "moduleVersion": "1.6.0",
+  "moduleBlob": "84b23a992e59e709bff7d1df9901f80b937a8471",
   "firmwareVersion": "1.1.3",
   "pagesSourceChanged": true,
   "profileMigrationApplied": true,
@@ -18,10 +20,14 @@
     "protocol": 2,
     "verify_jwt": true
   },
+  "v28BackendChanges": false,
   "verification": {
-    "unitTests": 589,
-    "hostedDuelRollback": "PASS",
-    "hostedDuelJoinRace": "PASS; fixture cancelled and removed"
+    "unitTests": 678,
+    "designBrowserScenarios": 26,
+    "helpBrowserScenarios": 7,
+    "helpBadgeModes": 8,
+    "embeddedTools": "10 interactions,4 phone layouts; BM/English150%",
+    "duel": "PASS isolated two-context lifecycle+invalid-PIN recovery"
   },
-  "websiteSha256": "d924bf8709dc04b946cdc64b27f1a271d56380beef4fa82390256f4ae2631f0c"
+  "websiteSha256": "bff5e71a21aca1b9a2ba924c90b68d77f608c8d6d7534be44ca7dfb61e4d02c5"
 }
