@@ -1,45 +1,29 @@
 {
-  "version": "2.3.0",
-  "source_repository": "unDead41/geodecoder",
-  "source_branch": "digitalize",
-  "source_commit": "01696af497cd7fca8e299f9c1b8a6407333ce276",
-  "site_html_sha256": "18bb17822161439fd4566a1c81e0871494f9e9d0a1053b36ab4757d935cfc999",
-  "offline_html_sha256": "fb808b85e7af54ad7a5369e4715dc1821752557549bf576b08b4e0afa1388d8e",
-  "module": {
-    "version": "1.2.0",
-    "source_commit": "931a0150397bfb3fd79ef3c8da6684167d1c6aad",
-    "blob": "5f58d2df981c7a21cc063a4958e898a46b6134fe",
-    "labs": [
-      "Bina Bentangan",
-      "Makmal Isi Padu",
-      "Terbitkan Rumus",
-      "Bongkah Gabungan"
-    ]
-  },
-  "audio": [
-    {
-      "path": "assets/audio/menu.mp3",
-      "bytes": 2161058,
-      "sha256": "9843f7da5eb33dcde18e83401debf2d82e1355a07cea0df5e4a696b1e123b0b4"
-    },
-    {
-      "path": "assets/audio/map.mp3",
-      "bytes": 2006517,
-      "sha256": "a86d0abe511f1ef5291c95b27b8aee42338d9dc5970af03d79fdef8e157aacb4"
-    }
-  ],
-  "backend": {
-    "edge_function": "geodecoder-auth",
-    "version": 3,
-    "email_delivery": "pending owner SMTP and redirect configuration; inbox delivery not verified"
-  },
+  "applicationVersion": "2.6.0",
+  "moduleVersion": "1.5.0",
+  "publicationBranch": "main-digitalized",
+  "sourceRepository": "unDead41/geodecoder",
+  "sourceBranch": "main-digitalized",
+  "sourceCommit": "6246d06ab492a5b0ab3edb3d5ee7b25bcc84b081",
+  "moduleSourceCommit": "fc9bda734f8b59825271a7cc4b91c101cb30bdde",
+  "websiteBlob": "fb91b41ab062ace14acd9589c2c463774b4b0593",
+  "websiteSha256": "c37c2b1fcac5abb51263a67a14332779b9b01cdb96d39e264465b2934c306960",
+  "websiteBytes": 1097468,
   "validation": {
-    "unit_tests": 81,
-    "module_tests": 100,
-    "static_checks": "passed",
-    "module_rebuild": "matches pinned source blob",
-    "database_checks": "unchanged; prior rolled-back checks recorded in v2.2"
+    "applicationTests": 248,
+    "moduleTests": 244,
+    "build": true,
+    "check": true,
+    "browser": "Chrome representative UI; CSS viewports320/390; not physical devices"
   },
-  "fix": "Dedicated music button preserves the first mute click.",
-  "password_hint": "10–128 characters; uppercase/lowercase letters, digits and symbols allowed; no character-class restriction added."
+  "deployment": {
+    "pagesSourceChanged": false,
+    "requestedPagesSource": "main-digitalized",
+    "profileMigrationApplied": false,
+    "moduleProgressMigrationApplied": false,
+    "requiredMigrations": [
+      "profile_v2_3.sql",
+      "module_progress_v2_4.sql"
+    ]
+  }
 }
