@@ -1,14 +1,20 @@
 {
-  "version": "2.2.1",
+  "version": "2.3.0",
   "source_repository": "unDead41/geodecoder",
   "source_branch": "digitalize",
-  "source_commit": "cd3039175c240dee9bbdfa57491e1fbc17e321a1",
-  "site_html_sha256": "60f71b0c19f9c42bf41ee8f5321f3333d01d8521cba699d7e9c510102bed1a3c",
-  "offline_html_sha256": "75f43dc561a6416fb6b89e0bb7db9a9070cd5b287e8e7154ec5cc23a3701657e",
+  "source_commit": "01696af497cd7fca8e299f9c1b8a6407333ce276",
+  "site_html_sha256": "18bb17822161439fd4566a1c81e0871494f9e9d0a1053b36ab4757d935cfc999",
+  "offline_html_sha256": "fb808b85e7af54ad7a5369e4715dc1821752557549bf576b08b4e0afa1388d8e",
   "module": {
-    "version": "1.1.0",
-    "source_commit": "92c12c3a07ec250c03a73decaf52a654fc26d502",
-    "blob": "2ad2f482dd6b356cd4842b7f4fab911b11b59521"
+    "version": "1.2.0",
+    "source_commit": "931a0150397bfb3fd79ef3c8da6684167d1c6aad",
+    "blob": "5f58d2df981c7a21cc063a4958e898a46b6134fe",
+    "labs": [
+      "Bina Bentangan",
+      "Makmal Isi Padu",
+      "Terbitkan Rumus",
+      "Bongkah Gabungan"
+    ]
   },
   "audio": [
     {
@@ -29,8 +35,10 @@
   },
   "validation": {
     "unit_tests": 81,
+    "module_tests": 100,
     "static_checks": "passed",
-    "database_checks": "passed; fixtures rolled back"
+    "module_rebuild": "matches pinned source blob",
+    "database_checks": "unchanged; prior rolled-back checks recorded in v2.2"
   },
   "fix": "Dedicated music button preserves the first mute click.",
   "password_hint": "10–128 characters; uppercase/lowercase letters, digits and symbols allowed; no character-class restriction added."
