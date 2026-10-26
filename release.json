@@ -14,16 +14,22 @@
     "moduleTests": 244,
     "build": true,
     "check": true,
-    "browser": "Chrome representative UI; CSS viewports320/390; not physical devices"
+    "browser": "Chrome representative UI; CSS viewports320/390; not physical devices",
+    "hostedDatabase": "Profile and module-progress SQL assertions passed; all synthetic fixtures rolled back"
   },
   "deployment": {
-    "pagesSourceChanged": false,
+    "pagesSourceChanged": true,
     "requestedPagesSource": "main-digitalized",
-    "profileMigrationApplied": false,
-    "moduleProgressMigrationApplied": false,
+    "profileMigrationApplied": true,
+    "moduleProgressMigrationApplied": true,
     "requiredMigrations": [
       "profile_v2_3.sql",
       "module_progress_v2_4.sql"
-    ]
+    ],
+    "actualPagesSource": "main-digitalized",
+    "pagesPath": "/",
+    "migrationName": "geodecoder_profile_and_module_progress_v2_6",
+    "migrationVersion": "20261026050330",
+    "databaseVerifiedAt": "2026-10-26T05:06:41.152Z"
   }
 }
