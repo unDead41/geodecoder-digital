@@ -1,4 +1,4 @@
-# GeoDecoder Digital v2.2.0
+# GeoDecoder Digital v2.2.1
 
 Main: https://undead41.github.io/geodecoder-digital/
 
@@ -7,3 +7,5 @@ Play as a Guest tanpa akaun, kelas guru/pelajar dengan PIN dan skor masa nyata, 
 Signup baharu meminta email; login menerima email/username dan pemulihan menggunakan pautan email. **Penghantaran email kepada pengguna umum masih memerlukan pemilik melengkapkan custom SMTP dan Site URL/redirect Supabase; inbox delivery belum disahkan.** Akaun lama tanpa email mengekalkan pilihan kod pemulihan.
 
 Repo ini membawa frontend dan dua aset audio sahaja. Sumber pembangunan kekal pada repository private unDead41/geodecoder, branch digitalize. release.json merekodkan SHA sumber dan hash fail. GitHub Pages menerbitkan branch main-digital, folder root. Kedua-dua lagu dibekalkan pengguna dan dikekalkan durasi penuh.
+
+Kata laluan 10–128 aksara menerima huruf besar/kecil, nombor dan simbol. Penerangan borang diperjelas; kombinasi semua jenis aksara tidak diwajibkan.
